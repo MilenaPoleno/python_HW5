@@ -10,5 +10,5 @@ with open("test.txt", encoding="utf-8") \
             enumerate(data_file.readlines()):
         num += 1
         print(f"В строке {num} - {len(line.split())}"
-                f" слов(о)")
+                f" слов(о/а)")
     print(f"Всего строк в файле - {num}")
