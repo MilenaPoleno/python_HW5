@@ -9,6 +9,6 @@ with open("test.txt", encoding="utf-8") \
     for num, line in \
             enumerate(data_file.readlines()):
         num += 1
-        print(f"В строке {num} {len(line.split())}"
+        print(f"В строке {num} - {len(line.split())}"
                 f" слов(о)")
-    print(f"Всего строк в файле {num}")
+    print(f"Всего строк в файле - {num}")
